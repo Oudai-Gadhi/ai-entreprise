@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# node / builds
+node_modules/
+dist/
+
+# local DB files
+*.sqlite
+*.sqlite3
+*.db
+
+# editors / OS
+.idea/
+Thumbs.db
+.DS_Store
